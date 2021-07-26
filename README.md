@@ -44,5 +44,5 @@ The output is in five columns:
 `dah8300` is released under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. See file copying.txt. 
 
 # Contents
-* `h8300.4th` source in Forth
+* `dah8300.4th` source in Forth
 * `h8300.pdf` Hitachi H8/300 Programming Manual

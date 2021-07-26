@@ -252,23 +252,23 @@ VARIABLE ASCII?
 
 : ShowHelp
   CR
-  ." ÃšÃ„Ã„ DisAssembler for H8/300: DAH8300" CR
-  ." Â³   24 Feb 1995   by Risto A. Karola" CR
-    'Â³' EMIT CR
-  ." Â³   USAGE:" CR
-  ." Â³          Disassemble on the screen:  DAH8300 file" CR
-  ." Â³   Disassemble on the file 'DA.LST':  DAH8300 file > DA.LST" CR
-    'Â³' EMIT CR
-  ." Â³   ESC interrupts the disassembling" CR  ;
+  ." ÚÄÄ DisAssembler for H8/300: DAH8300" CR
+  ." ³   24 Feb 1995   by Risto A. Karola" CR
+    '³' EMIT CR
+  ." ³   USAGE:" CR
+  ." ³          Disassemble on the screen:  DAH8300 file" CR
+  ." ³   Disassemble on the file 'DA.LST':  DAH8300 file > DA.LST" CR
+    '³' EMIT CR
+  ." ³   ESC interrupts the disassembling" CR  ;
 
 : ShowNoInput
-    'Â³' EMIT CR
-  ." Â³   ERROR: No input file given"
+    '³' EMIT CR
+  ." ³   ERROR: No input file given"
   CR  ;
 
 : ShowNoOpen
-    'Â³' EMIT CR
-  ." Â³   ERROR: Could not open the input file"
+    '³' EMIT CR
+  ." ³   ERROR: Could not open the input file"
   CR  ;
 
 : .#:3,@FFaa:8  ( b2 b1 a n -- )
