@@ -17,11 +17,10 @@ Usage
 
 Just type `dah8300` and you get help.
 
-```
-    disassembling file to the screen: dah8300 file
-    disassembling file to the screen with pauses: dah8300 file | more
-    disassembling file1 to file2: dah8300 file1 >file2
-```
+disassembling file to the screen: `dah8300 file`
+disassembling file to the screen with pauses: `dah8300 file | more`
+disassembling file1 to file2: `dah8300 file1 >file2`
+
 `Esc` interrupts the disassembling and causes return to DOS.
 
 ## Output
