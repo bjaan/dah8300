@@ -13,8 +13,8 @@ Only the source code was still available from https://www.archive.org
 Hitachi H8/300 code disassembler dah8300 runs in DOS. It reads binary image of H8/300 code and types it in assembly language to the screen. The output can be redirected into a file. 
 
 dah8300 was written in Forth programming language and compiled with TCOM, a public domain Forth compiler from Tom Zimmer. It is very handy with small programs as dah8300.
-Usage
 
+## Usage
 Just type `dah8300` and you get help.
 
 disassembling file to the screen: `dah8300 file`
