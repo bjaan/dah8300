@@ -32,7 +32,7 @@ The output is in five columns:
 * parameter(s) for the instruction
 * program counter value (hexadecimal)
 * machine code of the instruction (hexadecimal)
-* ASCII representation of the machine code (ASCII codes outside 32...126 range are displayed as dots)
+ASCII representation of the machine code (ASCII codes outside 32...126 range are displayed as dots)
 
 ![output](https://raw.githubusercontent.com/bjaan/dah8300/main/sw_dah8300_screenshot.png)
 
